@@ -58,8 +58,7 @@ def linguagens(login):
         languages = json.loads(requests.get(repo["languages_url"]).text)
         for lang in languages:
             dicionarioLinguagens[lang] += 1
-        break
     return dicionarioLinguagens
 
-print linguagens("mojombo")
+print linguagens("vicenteneto")
 
