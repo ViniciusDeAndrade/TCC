@@ -6,7 +6,9 @@ from libsaas.services import github
 from Usuario import Usuario
 
 class GerenteUsuario:
-    def getUsuarios(self):
+    
+    #na nuvem
+    def getUsuarios(self):  
         gh = github.GitHub("1caa7d1d703267253a4da559872a5179d0aef170")
         usuarios = json.loads(requests.get("https://api.github.com/users").text)
         
@@ -22,7 +24,7 @@ class GerenteUsuario:
             usuarios2.append(Usuario(user["login"], location, repos))
         
         return usuarios2
-                       
+     #na nuvem          
     def getUsuarioSince(self, ID):
         gh = github.GitHub("1caa7d1d703267253a4da559872a5179d0aef170")
         usuarios = json.loads(requests.get("https://api.github.com/users?since=" + str(ID)).text)
@@ -35,7 +37,7 @@ class GerenteUsuario:
             pickle.dump(user, f)
         
         f.close()
-    
+    #no arquivo
     def recuperarUsuarios(self):
         f = open("usuarios.pck", "r")
         usuarios = []
@@ -44,7 +46,7 @@ class GerenteUsuario:
             usuarios.append(pickle.load(f))
         
         return usuarios
-    
+    #no arquivo
     def buscarUsuario(self, login):
         f = open("usuarios.pck", "r")
         
@@ -62,7 +64,7 @@ class GerenteUsuario:
             f = open("usuarios.pck", "w")
             f.close()
             return False
-        
+    #na nuvem
     def getLinguagens(self, login):
         gh = github.GitHub("1caa7d1d703267253a4da559872a5179d0aef170")
         repos = json.loads(requests.get("https://api.github.com/users/" + str(login) + "/repos").text)
