@@ -7,9 +7,11 @@ from Usuario import Usuario
 
 class GerenteUsuario:
     
+    def getGitHub(self):
+        return github.Github("1caa7d1d703267253a4da559872a5179d0aef170")
     #na nuvem
     def getUsuarios(self):  
-        gh = github.GitHub("1caa7d1d703267253a4da559872a5179d0aef170")
+        gh = self.getGitHub()
         usuarios = json.loads(requests.get("https://api.github.com/users").text)
         
         usuarios2 = []
@@ -26,9 +28,22 @@ class GerenteUsuario:
         return usuarios2
      #na nuvem          
     def getUsuarioSince(self, ID):
-        gh = github.GitHub("1caa7d1d703267253a4da559872a5179d0aef170")
+        gh = self.getGitHub()
         usuarios = json.loads(requests.get("https://api.github.com/users?since=" + str(ID)).text)
         return usuarios
+    
+    #na nuvem
+    def getLinguagens(self, login):
+        gh = self.getGitHub()
+        repos = json.loads(requests.get("https://api.github.com/users/" + str(login) + "/repos").text)
+        
+        dicionarioLinguagens = {"JavaScript": 0, "Java": 0, "Ruby": 0, "C": 0, "Erlang": 0}
+        
+        for repo in repos:
+            languages = json.loads(requests.get(repo["languages_url"]).text)
+            for lang in languages:
+                dicionarioLinguagens[lang] += 1
+        return dicionarioLinguagens
     
     def salvarUsuarios(self, usuarios):
         f = open("usuarios.pck", "w")
@@ -46,6 +61,7 @@ class GerenteUsuario:
             usuarios.append(pickle.load(f))
         
         return usuarios
+   
     #no arquivo
     def buscarUsuario(self, login):
         f = open("usuarios.pck", "r")
@@ -64,15 +80,4 @@ class GerenteUsuario:
             f = open("usuarios.pck", "w")
             f.close()
             return False
-    #na nuvem
-    def getLinguagens(self, login):
-        gh = github.GitHub("1caa7d1d703267253a4da559872a5179d0aef170")
-        repos = json.loads(requests.get("https://api.github.com/users/" + str(login) + "/repos").text)
-        
-        dicionarioLinguagens = {"JavaScript": 0, "Java": 0, "Ruby": 0, "C": 0, "Erlang": 0}
-        
-        for repo in repos:
-            languages = json.loads(requests.get(repo["languages_url"]).text)
-            for lang in languages:
-                dicionarioLinguagens[lang] += 1
-        return dicionarioLinguagens
+    
