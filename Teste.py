@@ -9,7 +9,12 @@ from controles.GerenteGitHub import GerenteGitHub
 gg = GerenteGitHub()
 ga = GerenteArquivo()
 
-user = ga.buscarUsuario("mojombo")
+login = raw_input('digite o login : ')
 
-print user["name"]
+user = ga.buscarUsuario(login)
+
+linguagens = gg.getLinguagens(login)
+    
+for lang in linguagens:
+    print lang
 
