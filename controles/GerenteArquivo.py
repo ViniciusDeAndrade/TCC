@@ -2,10 +2,21 @@ from libsaas.services import github
 import json
 import requests
 import pickle
+from controles.GerenteGitHub import GerenteGitHub
 
 
 #Leitura do arquivo
 class GerenteArquivo:
+    
+    def ranquearUsuarios(self, linguagem):
+        usuarios = self.recuperarUsuarios()
+        gg = GerenteGitHub()
+        for i in range(100):
+            if(gg.getLinguagens(usuarios["Login"]).keys() == linguagem):
+                chaves = gg.getLinguagens(usuarios["Login"] ).keys()
+                for chave in chaves:
+                    print usuarios["Login"] + ' ' + str(chaves)  + ' :' str(gg.getLinguagens(usuarios["Login"]).values())
+            
 
   
     
@@ -36,5 +47,7 @@ class GerenteArquivo:
             f = open("usuarios.pck", "w")
             f.close()
             return False
+
+
         
         
