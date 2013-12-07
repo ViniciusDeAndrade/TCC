@@ -15,6 +15,6 @@ user = ga.buscarUsuario(login)
 
 linguagens = gg.getLinguagens(login)
     
-for lang in linguagens:
-    print lang
 
+for lang in linguagens:
+    print lang + ": " + linguagens[lang]

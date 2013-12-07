@@ -24,12 +24,15 @@ class GerenteGitHub:
         gh = self.getGitHub()
         repos = json.loads(requests.get("https://api.github.com/users/" + str(login) + "/repos").text)
         
-        dicionarioLinguagens = {"JavaScript": 0, "Java": 0, "Ruby": 0, "C": 0, "Erlang": 0}
+        dicionarioLinguagens = {}
         
         for repo in repos:
             languages = json.loads(requests.get(repo["languages_url"]).text)
             for lang in languages:
-                dicionarioLinguagens[lang] += 1
+                if lang in dicionarioLinguagens:
+                    dicionarioLinguagens[lang] += 1
+                else:
+                    dicionarioLinguagens[lang] = 1
         return dicionarioLinguagens
     
     def salvarUsuarios(self, usuarios):
