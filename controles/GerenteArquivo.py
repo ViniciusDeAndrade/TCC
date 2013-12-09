@@ -11,11 +11,17 @@ class GerenteArquivo:
     def ranquearUsuarios(self, linguagem):
         usuarios = self.recuperarUsuarios()
         gg = GerenteGitHub()
-        for i in range(100):
-            if(gg.getLinguagens(usuarios["Login"]).keys() == linguagem):
-                chaves = gg.getLinguagens(usuarios["Login"] ).keys()
-                for chave in chaves:
-                    print usuarios["Login"] + ' ' + str(chaves)  + ' :' str(gg.getLinguagens(usuarios["Login"]).values())
+        
+        #Pega as linguagens dos usuarios no arquivo
+        for usuario in usuarios:
+            linguagens = gg.getLinguagens(usuario["Login"])
+        #Agora compara se a linguagem é a do paremotro
+        #Se for, poe o login do usuario na lista que deve ser retornada
+        for lang in linguagens:
+            if(lang == linguagem)
+            user = usuarios["Login"]
+        
+        return user
             
 
   
