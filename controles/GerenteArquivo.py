@@ -18,8 +18,8 @@ class GerenteArquivo:
         #Agora compara se a linguagem é a do paremotro
         #Se for, poe o login do usuario na lista que deve ser retornada
         for lang in linguagens:
-            if(lang == linguagem)
-            user = usuarios["Login"]
+            if(lang == linguagem):
+                user = usuarios["Login"]
         
         return user
             
