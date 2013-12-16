@@ -1,7 +1,6 @@
 from controles.GerenteArquivo import GerenteArquivo
 from controles.GerenteGitHub import GerenteGitHub
 
-
 gg = GerenteGitHub()
 ga = GerenteArquivo()
 
@@ -19,4 +18,8 @@ ga = GerenteArquivo()
 #     print str(chave) + ": " + str(linguagens[chave])
 #===============================================================================
 
-ga.ranquearUsuarios("Java")
+ranking = ga.ranquearUsuarios("Java")
+chaves = ranking.keys()
+
+for chave in chaves:
+    print str(chave) + ": " + str(ranking[chave])
