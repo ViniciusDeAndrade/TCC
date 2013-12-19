@@ -1,0 +1,17 @@
+(dp0
+VC
+p1
+I2933305
+sVShell
+p2
+I7619
+sVRuby
+p3
+I187239
+sVC++
+p4
+I524
+sVPerl
+p5
+I13731
+s.
