@@ -1,25 +1,21 @@
-from controles.GerenteArquivo import GerenteArquivo
+import pickle
 from controles.GerenteGitHub import GerenteGitHub
 
 gg = GerenteGitHub()
-ga = GerenteArquivo()
 
-#===============================================================================
-# login = raw_input('digite o login : ')
-# 
-# user = ga.buscarUsuario(login)
-# 
-# linguagens = gg.getLinguagens(login)
-# 
-# chaves = linguagens.keys()
-# chaves.sort()
-# 
-# for chave in chaves:
-#     print str(chave) + ": " + str(linguagens[chave])
-#===============================================================================
+#usuario = raw_input('digite um nome de usuario: ')
+#gg.salvarRepos(usuario)
 
-ranking = ga.ranquearUsuarios("Java")
-chaves = ranking.keys()
+# dicionarioLinguagens = gg.getLinguagensNoArquivo("mojombo")
+# keys = dicionarioLinguagens.keys()
+# 
+# for key in keys:
+#     print key + ": " + str(dicionarioLinguagens[key])
 
-for chave in chaves:
-    print str(chave) + ": " + str(ranking[chave])
+f = open("mojombo/mojombo.repos.bert.languages.txt", "r")
+languages = pickle.load(f)
+
+keys = languages.keys()
+
+for key in keys:
+    print key + ": " + str(languages[key])

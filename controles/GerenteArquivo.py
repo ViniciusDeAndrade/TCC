@@ -59,7 +59,3 @@ class GerenteArquivo:
             f = open("usuarios.pck", "w")
             f.close()
             return False
-
-
-        
-        
