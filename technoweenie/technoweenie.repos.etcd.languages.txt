@@ -1,0 +1,26 @@
+(dp0
+VShell
+p1
+I4397
+sVJavaScript
+p2
+I207960
+sVVimL
+p3
+I55
+sVPerl
+p4
+I516
+sVStandard ML
+p5
+I512
+sVGo
+p6
+I4369826
+sVPowerShell
+p7
+I660
+sVCSS
+p8
+I142640
+s.
