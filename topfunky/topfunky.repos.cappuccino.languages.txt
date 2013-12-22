@@ -1,0 +1,17 @@
+(dp0
+VVimL
+p1
+I6985
+sVObjective-J
+p2
+I2005244
+sVJavaScript
+p3
+I178247
+sVRuby
+p4
+I6788
+sVEmacs Lisp
+p5
+I9812
+s.

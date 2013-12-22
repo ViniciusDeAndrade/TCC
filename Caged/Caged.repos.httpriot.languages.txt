@@ -1,0 +1,14 @@
+(dp0
+VC
+p1
+I151217
+sVShell
+p2
+I586
+sVRuby
+p3
+I5951
+sVObjective-C
+p4
+I172534
+s.
