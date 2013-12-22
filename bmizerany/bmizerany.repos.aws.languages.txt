@@ -1,0 +1,8 @@
+(dp0
+VGo
+p1
+I4662
+sVShell
+p2
+I92
+s.

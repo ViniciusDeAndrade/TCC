@@ -1,0 +1,17 @@
+(dp0
+VPython
+p1
+I1872280
+sVC
+p2
+I1479291
+sVShell
+p3
+I3030
+sVC++
+p4
+I2346271
+sVProlog
+p5
+I1338
+s.
