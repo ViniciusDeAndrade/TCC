@@ -4,9 +4,9 @@ from controles.GerenteGitHub import GerenteGitHub
 gg = GerenteGitHub()
 
 # usuario = raw_input('digite um nome de usuario: ')
-# gg.salvarRepos("reinh")
+#gg.salvarRepos("bruce")
 
-gg.salvarReposFaltando("reinh", "commandant")
+gg.salvarReposFaltando("bruce", "bruce.io")
 
 # dicionarioLinguagens = gg.getLinguagensNoArquivo("mojombo")
 # keys = dicionarioLinguagens.keys()
