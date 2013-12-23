@@ -3,10 +3,10 @@ from controles.GerenteGitHub import GerenteGitHub
 
 gg = GerenteGitHub()
 
-#usuario = raw_input('digite um nome de usuario: ')
-#gg.salvarRepos("bmizerany")
+# usuario = raw_input('digite um nome de usuario: ')
+# gg.salvarRepos("reinh")
 
-gg.salvarReposFaltando("bmizerany", "elephant")
+gg.salvarReposFaltando("reinh", "commandant")
 
 # dicionarioLinguagens = gg.getLinguagensNoArquivo("mojombo")
 # keys = dicionarioLinguagens.keys()
