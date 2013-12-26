@@ -1,0 +1,14 @@
+(dp0
+VC
+p1
+I6704
+sVShell
+p2
+I82826
+sVRuby
+p3
+I126398
+sVPerl
+p4
+I228239
+s.

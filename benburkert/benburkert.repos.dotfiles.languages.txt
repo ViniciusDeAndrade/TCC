@@ -1,0 +1,17 @@
+(dp0
+VEmacs Lisp
+p1
+I5955
+sVShell
+p2
+I925
+sVVimL
+p3
+I2048
+sVClojure
+p4
+I44
+sVPerl
+p5
+I1136
+s.
