@@ -1,0 +1,17 @@
+(dp0
+VEmacs Lisp
+p1
+I7592188
+sVPHP
+p2
+I130789
+sVRuby
+p3
+I1626
+sVJavaScript
+p4
+I171485
+sVPerl
+p5
+I129255
+s.

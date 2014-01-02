@@ -1,0 +1,8 @@
+(dp0
+VC
+p1
+I386
+sVShell
+p2
+I5717
+s.
