@@ -8,7 +8,7 @@ from controles.GerenteGitHub import GerenteGitHub
 #Leitura do arquivo
 class GerenteArquivo:
     
-    def ranquearUsuarios(self, linguagem):
+    def ranquearUsuariosPorBytes(self, linguagem):
         usuarios = self.recuperarUsuarios()
         gg = GerenteGitHub()
         ranking = {}
@@ -18,19 +18,51 @@ class GerenteArquivo:
         
         #Pega as linguagens dos usuarios no arquivo
         for usuario in usuarios:
-            linguagens = gg.getLinguagensNoArquivo(usuario["login"])
-            #Agora compara se a linguagem eh a do paremotro
-            #Se for, poe o login do usuario na lista que deve ser retornada
-            for lang in linguagens:
-                if(lang == linguagem):
-                    ranking[usuario["login"]] += 1
+            #linguagens = gg.getLinguagensNoArquivo(usuario["login"])
+            countBytes = gg.getBytesDaLinguagemNoArquivoComExcecao(usuario["login"], linguagem)
+
+            try:
+                ranking[usuario["login"]] += countBytes
+            except:
+                print '',
             
             print usuario["login"] + ' :' + str(ranking[usuario["login"]])
         
         return ranking
-            
 
-  
+            
+    def ranquearUsuariosPorFork(self, linguagem):
+        usuarios = self.recuperarUsuarios()
+        gg = GerenteGitHub()
+        ranking = {}
+
+        for usuario in usuarios:
+            ranking[usuario["login"]] = 0
+
+        #Pega a quantidade de forks do usuario com a linguagem passada por parametro
+        for usuario in usuarios:
+            countForks = gg.getForksPorLinguagemNoArquivoComExcecao(usuario["login"], linguagem)
+
+            try:
+                ranking[usuario["login"]] += countForks
+                print usuario["login"] + ' :' + str(ranking[usuario["login"]])
+            except:
+                print usuario["login"] + ' :' + str(ranking[usuario["login"]])
+        
+        return ranking
+        
+
+    def ranquearUsuarios(self, linguagem):
+        pesoFork = 10
+          
+        rankingBytes = self.ranquearUsuariosPorBytes(linguagem)
+        rankingForks = self.ranquearUsuariosPorFork(linguagem)
+        ranking = {}
+
+        for usuario in rankingBytes:
+            ranking[usuario] = (pesoFork * rankingForks[usuario]) + rankingBytes[usuario]
+          
+        return ranking
     
     def recuperarUsuarios(self):
         f = open("usuarios.pck", "r")

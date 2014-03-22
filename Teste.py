@@ -5,7 +5,7 @@ from controles.GerenteArquivo import GerenteArquivo
 gg = GerenteGitHub()
 
 #usuario = raw_input('digite um nome de usuario: ')
-gg.salvarRepos("kevwil")
+#gg.salvarRepos("kevwil")
 
 #gg.salvarReposFaltando("wayneeseguin", "msgpack-ruby")
 
@@ -26,6 +26,8 @@ gg.salvarRepos("kevwil")
 #===============================================================================
 
 
-#ga = GerenteArquivo()
-#ranking = ga.ranquearUsuarios('CSS')
-#print ranking
+ga = GerenteArquivo()
+ranking = ga.ranquearUsuarios('Java')
+print "=============================================="
+for usuario in ranking:
+    print usuario + " " + str(ranking[usuario])
