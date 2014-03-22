@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -143,7 +143,7 @@ Vhttps://api.github.com/repos/wayneeseguin/bundler/tags
 p68
 sVnetwork_count
 p69
-I824
+I909
 sVdownloads_url
 p70
 Vhttps://api.github.com/repos/wayneeseguin/bundler/downloads
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/bundler/bundler/issues{/number}
 p82
 sVstargazers_count
 p83
-I2269
+I2382
 sVforks_url
 p84
 Vhttps://api.github.com/repos/bundler/bundler/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/bundler/bundler/collaborators{/collaborator}
 p92
 sVupdated_at
 p93
-V2013-12-20T14:59:22Z
+V2014-03-21T17:13:07Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/bundler/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/08c396ce3c6d84fd8ef749da5e7a4f2b?d=https%3A%2F%2Fidenticons.github.com%2F66d994786b183e0004dc206eb6ab2c90.png&r=x
+Vhttps://avatars.githubusercontent.com/u/1137638?
 p122
 sVrepos_url
 p123
@@ -330,7 +330,7 @@ Vhttps://github.com/bundler/bundler.git
 p158
 sVwatchers_count
 p159
-I2269
+I2382
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/bundler/bundler/git/tags{/sha}
@@ -345,10 +345,10 @@ Vhttps://api.github.com/repos/bundler/bundler/languages
 p165
 sVsize
 p166
-I19927
+I22424
 sVhomepage
 p167
-Vhttp://gembundler.com
+Vhttp://bundler.io
 p168
 sVfork
 p169
@@ -387,7 +387,7 @@ Vhttps://github.com/bundler/bundler
 p185
 sVforks
 p186
-I824
+I909
 sVcompare_url
 p187
 Vhttps://api.github.com/repos/bundler/bundler/compare/{base}...{head}
@@ -435,7 +435,7 @@ p207
 I00
 sVwatchers
 p208
-I2269
+I2382
 sVname
 p209
 Vbundler
@@ -454,11 +454,11 @@ V2010-01-26T00:46:38Z
 p216
 sVpushed_at
 p217
-V2013-12-20T09:16:22Z
+V2014-03-21T17:13:05Z
 p218
 sVforks_count
 p219
-I824
+I909
 sVdefault_branch
 p220
 Vmaster
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/bundler/languages
 p240
 sVsize
 p241
-I116
+I9517
 sVhomepage
 p242
 Vhttp://gembundler.com
@@ -533,7 +533,7 @@ Vhttps://api.github.com/repos/bundler/bundler/issues{/number}
 p254
 sVstargazers_count
 p255
-I2269
+I2382
 sVforks_url
 p256
 Vhttps://api.github.com/repos/bundler/bundler/forks
@@ -554,7 +554,7 @@ Vhttps://api.github.com/repos/bundler/bundler/collaborators{/collaborator}
 p264
 sVupdated_at
 p265
-V2013-12-20T14:59:22Z
+V2014-03-21T17:13:07Z
 p266
 sVprivate
 p267
@@ -611,7 +611,7 @@ Vhttps://api.github.com/users/bundler/subscriptions
 p292
 sVavatar_url
 p293
-Vhttps://gravatar.com/avatar/08c396ce3c6d84fd8ef749da5e7a4f2b?d=https%3A%2F%2Fidenticons.github.com%2F66d994786b183e0004dc206eb6ab2c90.png&r=x
+Vhttps://avatars.githubusercontent.com/u/1137638?
 p294
 sVrepos_url
 p295
@@ -691,7 +691,7 @@ Vhttps://github.com/bundler/bundler.git
 p330
 sVwatchers_count
 p331
-I2269
+I2382
 sVgit_tags_url
 p332
 Vhttps://api.github.com/repos/bundler/bundler/git/tags{/sha}
@@ -706,10 +706,10 @@ Vhttps://api.github.com/repos/bundler/bundler/languages
 p337
 sVsize
 p338
-I19927
+I22424
 sVhomepage
 p339
-Vhttp://gembundler.com
+Vhttp://bundler.io
 p340
 sVfork
 p341
@@ -748,7 +748,7 @@ Vhttps://github.com/bundler/bundler
 p357
 sVforks
 p358
-I824
+I909
 sVcompare_url
 p359
 Vhttps://api.github.com/repos/bundler/bundler/compare/{base}...{head}
@@ -796,7 +796,7 @@ p379
 I00
 sVwatchers
 p380
-I2269
+I2382
 sVname
 p381
 Vbundler
@@ -815,11 +815,11 @@ V2010-01-26T00:46:38Z
 p388
 sVpushed_at
 p389
-V2013-12-20T09:16:22Z
+V2014-03-21T17:13:05Z
 p390
 sVforks_count
 p391
-I824
+I909
 sVdefault_branch
 p392
 Vmaster

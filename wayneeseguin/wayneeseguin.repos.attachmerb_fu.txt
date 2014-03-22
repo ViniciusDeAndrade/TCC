@@ -5,7 +5,7 @@ Vhttps://api.github.com/repos/wayneeseguin/attachmerb_fu/issues{/number}
 p2
 sVstargazers_count
 p3
-I2
+I3
 sVforks_url
 p4
 Vhttps://api.github.com/repos/wayneeseguin/attachmerb_fu/forks
@@ -26,7 +26,7 @@ Vhttps://api.github.com/repos/wayneeseguin/attachmerb_fu/collaborators{/collabor
 p12
 sVupdated_at
 p13
-V2012-12-12T16:58:14Z
+V2013-12-28T14:40:55Z
 p14
 sVprivate
 p15
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/jackdempsey/attachmerb_fu/issues{/number}
 p82
 sVstargazers_count
 p83
-I17
+I18
 sVforks_url
 p84
 Vhttps://api.github.com/repos/jackdempsey/attachmerb_fu/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/jackdempsey/attachmerb_fu/collaborators{/collabora
 p92
 sVupdated_at
 p93
-V2013-08-25T17:49:46Z
+V2014-02-15T12:03:25Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/jackdempsey/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/1ccb5123d1af92e24b32cec62abcf9a8?d=https%3A%2F%2Fidenticons.github.com%2Fd18f655c3fce66ca401d5f38b48c89af.png&r=x
+Vhttps://avatars.githubusercontent.com/u/479?
 p122
 sVrepos_url
 p123
@@ -323,14 +323,14 @@ Vhttps://api.github.com/repos/jackdempsey/attachmerb_fu/git/refs{/sha}
 p155
 sVopen_issues_count
 p156
-I0
+I1
 sVclone_url
 p157
 Vhttps://github.com/jackdempsey/attachmerb_fu.git
 p158
 sVwatchers_count
 p159
-I17
+I18
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/jackdempsey/attachmerb_fu/git/tags{/sha}
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/jackdempsey/attachmerb_fu/languages
 p165
 sVsize
 p166
-I88
+I123
 sVhomepage
 p167
 Vhttp://rubyforge.org/projects/merb-plugins/
@@ -394,7 +394,7 @@ Vhttps://api.github.com/repos/jackdempsey/attachmerb_fu/compare/{base}...{head}
 p188
 sVopen_issues
 p189
-I0
+I1
 sVgit_url
 p190
 Vgit://github.com/jackdempsey/attachmerb_fu.git
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I17
+I18
 sVname
 p209
 Vattachmerb_fu
@@ -489,7 +489,7 @@ Vhttps://github.com/wayneeseguin/attachmerb_fu.git
 p233
 sVwatchers_count
 p234
-I2
+I3
 sVgit_tags_url
 p235
 Vhttps://api.github.com/repos/wayneeseguin/attachmerb_fu/git/tags{/sha}
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/attachmerb_fu/languages
 p240
 sVsize
 p241
-I92
+I108
 sVhomepage
 p242
 Vhttp://rubyforge.org/projects/merb-plugins/
@@ -533,7 +533,7 @@ Vhttps://api.github.com/repos/fabien/attachmerb_fu/issues{/number}
 p254
 sVstargazers_count
 p255
-I4
+I5
 sVforks_url
 p256
 Vhttps://api.github.com/repos/fabien/attachmerb_fu/forks
@@ -554,7 +554,7 @@ Vhttps://api.github.com/repos/fabien/attachmerb_fu/collaborators{/collaborator}
 p264
 sVupdated_at
 p265
-V2013-08-10T02:36:22Z
+V2013-12-28T14:37:51Z
 p266
 sVprivate
 p267
@@ -611,7 +611,7 @@ Vhttps://api.github.com/users/fabien/subscriptions
 p292
 sVavatar_url
 p293
-Vhttps://gravatar.com/avatar/9871c515e1a284f2861f1d92645fd00a?d=https%3A%2F%2Fidenticons.github.com%2Fd37b3ca37106b2bfdeaa12647e3bb1c9.png&r=x
+Vhttps://avatars.githubusercontent.com/u/2749?
 p294
 sVrepos_url
 p295
@@ -691,7 +691,7 @@ Vhttps://github.com/fabien/attachmerb_fu.git
 p330
 sVwatchers_count
 p331
-I4
+I5
 sVgit_tags_url
 p332
 Vhttps://api.github.com/repos/fabien/attachmerb_fu/git/tags{/sha}
@@ -706,7 +706,7 @@ Vhttps://api.github.com/repos/fabien/attachmerb_fu/languages
 p337
 sVsize
 p338
-I96
+I118
 sVhomepage
 p339
 Vhttp://rubyforge.org/projects/merb-plugins/
@@ -796,7 +796,7 @@ p379
 I01
 sVwatchers
 p380
-I4
+I5
 sVname
 p381
 Vattachmerb_fu
@@ -914,7 +914,7 @@ p435
 I01
 sVwatchers
 p436
-I2
+I3
 sVname
 p437
 Vattachmerb_fu

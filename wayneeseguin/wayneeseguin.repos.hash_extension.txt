@@ -5,7 +5,7 @@ Vhttps://api.github.com/repos/wayneeseguin/hash_extension/issues{/number}
 p2
 sVstargazers_count
 p3
-I5
+I6
 sVforks_url
 p4
 Vhttps://api.github.com/repos/wayneeseguin/hash_extension/forks
@@ -26,7 +26,7 @@ Vhttps://api.github.com/repos/wayneeseguin/hash_extension/collaborators{/collabo
 p12
 sVupdated_at
 p13
-V2013-07-01T23:09:33Z
+V2013-12-29T11:59:28Z
 p14
 sVprivate
 p15
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -169,7 +169,7 @@ Vhttps://github.com/wayneeseguin/hash_extension.git
 p80
 sVwatchers_count
 p81
-I5
+I6
 sVgit_tags_url
 p82
 Vhttps://api.github.com/repos/wayneeseguin/hash_extension/git/tags{/sha}
@@ -184,7 +184,7 @@ Vhttps://api.github.com/repos/wayneeseguin/hash_extension/languages
 p87
 sVsize
 p88
-I184
+I164
 sVhomepage
 p89
 Vhttp://enterpriserails.rubyforge.org/hash_extension/
@@ -274,7 +274,7 @@ p129
 I01
 sVwatchers
 p130
-I5
+I6
 sVname
 p131
 Vhash_extension

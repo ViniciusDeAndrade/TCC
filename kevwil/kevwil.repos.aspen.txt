@@ -5,7 +5,7 @@ Vhttps://api.github.com/repos/kevwil/aspen/issues{/number}
 p2
 sVstargazers_count
 p3
-I58
+I59
 sVforks_url
 p4
 Vhttps://api.github.com/repos/kevwil/aspen/forks
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/kevwil/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/267942571862781dd912de6482a35f46?d=https%3A%2F%2Fidenticons.github.com%2F1c383cd30b7c298ab50293adfecb7b18.png&r=x
+Vhttps://avatars.githubusercontent.com/u/35?
 p42
 sVrepos_url
 p43
@@ -169,7 +169,7 @@ Vhttps://github.com/kevwil/aspen.git
 p80
 sVwatchers_count
 p81
-I58
+I59
 sVgit_tags_url
 p82
 Vhttps://api.github.com/repos/kevwil/aspen/git/tags{/sha}
@@ -274,7 +274,7 @@ p129
 I01
 sVwatchers
 p130
-I58
+I59
 sVname
 p131
 Vaspen

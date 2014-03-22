@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/cschneid/irclogger/issues{/number}
 p82
 sVstargazers_count
 p83
-I111
+I116
 sVforks_url
 p84
 Vhttps://api.github.com/repos/cschneid/irclogger/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/cschneid/irclogger/collaborators{/collaborator}
 p92
 sVupdated_at
 p93
-V2013-12-10T15:52:59Z
+V2014-01-11T11:07:25Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/cschneid/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/d4ab520029244d63511497f1fa0adbf1?d=https%3A%2F%2Fidenticons.github.com%2F7bb7a62681a8a0f94ab424b06d172ca3.png&r=x
+Vhttps://avatars.githubusercontent.com/u/6119?
 p122
 sVrepos_url
 p123
@@ -330,7 +330,7 @@ Vhttps://github.com/cschneid/irclogger.git
 p158
 sVwatchers_count
 p159
-I111
+I116
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/cschneid/irclogger/git/tags{/sha}
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/cschneid/irclogger/languages
 p165
 sVsize
 p166
-I908
+I1139
 sVhomepage
 p167
 Vhttp://www.irclogger.com
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I111
+I116
 sVname
 p209
 Virclogger
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/irclogger/languages
 p240
 sVsize
 p241
-I876
+I1092
 sVhomepage
 p242
 Vhttp://www.irclogger.com
@@ -533,7 +533,7 @@ Vhttps://api.github.com/repos/cschneid/irclogger/issues{/number}
 p254
 sVstargazers_count
 p255
-I111
+I116
 sVforks_url
 p256
 Vhttps://api.github.com/repos/cschneid/irclogger/forks
@@ -554,7 +554,7 @@ Vhttps://api.github.com/repos/cschneid/irclogger/collaborators{/collaborator}
 p264
 sVupdated_at
 p265
-V2013-12-10T15:52:59Z
+V2014-01-11T11:07:25Z
 p266
 sVprivate
 p267
@@ -611,7 +611,7 @@ Vhttps://api.github.com/users/cschneid/subscriptions
 p292
 sVavatar_url
 p293
-Vhttps://gravatar.com/avatar/d4ab520029244d63511497f1fa0adbf1?d=https%3A%2F%2Fidenticons.github.com%2F7bb7a62681a8a0f94ab424b06d172ca3.png&r=x
+Vhttps://avatars.githubusercontent.com/u/6119?
 p294
 sVrepos_url
 p295
@@ -691,7 +691,7 @@ Vhttps://github.com/cschneid/irclogger.git
 p330
 sVwatchers_count
 p331
-I111
+I116
 sVgit_tags_url
 p332
 Vhttps://api.github.com/repos/cschneid/irclogger/git/tags{/sha}
@@ -706,7 +706,7 @@ Vhttps://api.github.com/repos/cschneid/irclogger/languages
 p337
 sVsize
 p338
-I908
+I1139
 sVhomepage
 p339
 Vhttp://www.irclogger.com
@@ -796,7 +796,7 @@ p379
 I01
 sVwatchers
 p380
-I111
+I116
 sVname
 p381
 Virclogger

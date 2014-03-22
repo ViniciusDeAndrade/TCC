@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -143,7 +143,7 @@ Vhttps://api.github.com/repos/wayneeseguin/deliver/tags
 p68
 sVnetwork_count
 p69
-I29
+I31
 sVdownloads_url
 p70
 Vhttps://api.github.com/repos/wayneeseguin/deliver/downloads
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/gerhard/deliver/issues{/number}
 p82
 sVstargazers_count
 p83
-I629
+I663
 sVforks_url
 p84
 Vhttps://api.github.com/repos/gerhard/deliver/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/gerhard/deliver/collaborators{/collaborator}
 p92
 sVupdated_at
 p93
-V2013-12-19T14:30:51Z
+V2014-01-17T03:15:19Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/gerhard/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/6e1b896f6c4807aa4223acc428c57760?d=https%3A%2F%2Fidenticons.github.com%2F14491b756b3a51daac41c24863285549.png&r=x
+Vhttps://avatars.githubusercontent.com/u/3342?
 p122
 sVrepos_url
 p123
@@ -330,7 +330,7 @@ Vhttps://github.com/gerhard/deliver.git
 p158
 sVwatchers_count
 p159
-I629
+I663
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/gerhard/deliver/git/tags{/sha}
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/gerhard/deliver/languages
 p165
 sVsize
 p166
-I228
+I605
 sVhomepage
 p167
 V
@@ -387,7 +387,7 @@ Vhttps://github.com/gerhard/deliver
 p185
 sVforks
 p186
-I29
+I31
 sVcompare_url
 p187
 Vhttps://api.github.com/repos/gerhard/deliver/compare/{base}...{head}
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I629
+I663
 sVname
 p209
 Vdeliver
@@ -454,11 +454,11 @@ V2012-02-08T17:36:36Z
 p216
 sVpushed_at
 p217
-V2013-12-17T14:49:47Z
+V2014-01-03T12:47:35Z
 p218
 sVforks_count
 p219
-I29
+I31
 sVdefault_branch
 p220
 Vmaster
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/deliver/languages
 p240
 sVsize
 p241
-I96
+I129
 sVhomepage
 p242
 g168
@@ -532,7 +532,7 @@ Vhttps://api.github.com/repos/gerhard/deliver/issues{/number}
 p253
 sVstargazers_count
 p254
-I629
+I663
 sVforks_url
 p255
 Vhttps://api.github.com/repos/gerhard/deliver/forks
@@ -553,7 +553,7 @@ Vhttps://api.github.com/repos/gerhard/deliver/collaborators{/collaborator}
 p263
 sVupdated_at
 p264
-V2013-12-19T14:30:51Z
+V2014-01-17T03:15:19Z
 p265
 sVprivate
 p266
@@ -610,7 +610,7 @@ Vhttps://api.github.com/users/gerhard/subscriptions
 p291
 sVavatar_url
 p292
-Vhttps://gravatar.com/avatar/6e1b896f6c4807aa4223acc428c57760?d=https%3A%2F%2Fidenticons.github.com%2F14491b756b3a51daac41c24863285549.png&r=x
+Vhttps://avatars.githubusercontent.com/u/3342?
 p293
 sVrepos_url
 p294
@@ -690,7 +690,7 @@ Vhttps://github.com/gerhard/deliver.git
 p329
 sVwatchers_count
 p330
-I629
+I663
 sVgit_tags_url
 p331
 Vhttps://api.github.com/repos/gerhard/deliver/git/tags{/sha}
@@ -705,7 +705,7 @@ Vhttps://api.github.com/repos/gerhard/deliver/languages
 p336
 sVsize
 p337
-I228
+I605
 sVhomepage
 p338
 g168
@@ -746,7 +746,7 @@ Vhttps://github.com/gerhard/deliver
 p355
 sVforks
 p356
-I29
+I31
 sVcompare_url
 p357
 Vhttps://api.github.com/repos/gerhard/deliver/compare/{base}...{head}
@@ -794,7 +794,7 @@ p377
 I01
 sVwatchers
 p378
-I629
+I663
 sVname
 p379
 Vdeliver
@@ -813,11 +813,11 @@ V2012-02-08T17:36:36Z
 p386
 sVpushed_at
 p387
-V2013-12-17T14:49:47Z
+V2014-01-03T12:47:35Z
 p388
 sVforks_count
 p389
-I29
+I31
 sVdefault_branch
 p390
 Vmaster

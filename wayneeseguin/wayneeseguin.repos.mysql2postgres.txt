@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -143,7 +143,7 @@ Vhttps://api.github.com/repos/wayneeseguin/mysql2postgres/tags
 p68
 sVnetwork_count
 p69
-I106
+I107
 sVdownloads_url
 p70
 Vhttps://api.github.com/repos/wayneeseguin/mysql2postgres/downloads
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/issues{/number}
 p82
 sVstargazers_count
 p83
-I403
+I416
 sVforks_url
 p84
 Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/collaborators{/collabora
 p92
 sVupdated_at
 p93
-V2013-12-18T18:04:39Z
+V2014-01-10T12:31:38Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/maxlapshin/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/143c67bc66364c543e85bc907717a8ab?d=https%3A%2F%2Fidenticons.github.com%2F475fbefa9ebfba9233364533aafd02a3.png&r=x
+Vhttps://avatars.githubusercontent.com/u/4511?
 p122
 sVrepos_url
 p123
@@ -330,7 +330,7 @@ Vhttps://github.com/maxlapshin/mysql2postgres.git
 p158
 sVwatchers_count
 p159
-I403
+I416
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/git/tags{/sha}
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/languages
 p165
 sVsize
 p166
-I378
+I382
 sVhomepage
 p167
 V
@@ -387,7 +387,7 @@ Vhttps://github.com/maxlapshin/mysql2postgres
 p185
 sVforks
 p186
-I106
+I107
 sVcompare_url
 p187
 Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/compare/{base}...{head}
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I403
+I416
 sVname
 p209
 Vmysql2postgres
@@ -458,7 +458,7 @@ V2013-11-05T14:39:27Z
 p218
 sVforks_count
 p219
-I106
+I107
 sVdefault_branch
 p220
 Vmaster
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/mysql2postgres/languages
 p240
 sVsize
 p241
-I92
+I90
 sVhomepage
 p242
 g168
@@ -532,7 +532,7 @@ Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/issues{/number}
 p253
 sVstargazers_count
 p254
-I403
+I416
 sVforks_url
 p255
 Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/forks
@@ -553,7 +553,7 @@ Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/collaborators{/collabora
 p263
 sVupdated_at
 p264
-V2013-12-18T18:04:39Z
+V2014-01-10T12:31:38Z
 p265
 sVprivate
 p266
@@ -610,7 +610,7 @@ Vhttps://api.github.com/users/maxlapshin/subscriptions
 p291
 sVavatar_url
 p292
-Vhttps://gravatar.com/avatar/143c67bc66364c543e85bc907717a8ab?d=https%3A%2F%2Fidenticons.github.com%2F475fbefa9ebfba9233364533aafd02a3.png&r=x
+Vhttps://avatars.githubusercontent.com/u/4511?
 p293
 sVrepos_url
 p294
@@ -690,7 +690,7 @@ Vhttps://github.com/maxlapshin/mysql2postgres.git
 p329
 sVwatchers_count
 p330
-I403
+I416
 sVgit_tags_url
 p331
 Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/git/tags{/sha}
@@ -705,7 +705,7 @@ Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/languages
 p336
 sVsize
 p337
-I378
+I382
 sVhomepage
 p338
 g168
@@ -746,7 +746,7 @@ Vhttps://github.com/maxlapshin/mysql2postgres
 p355
 sVforks
 p356
-I106
+I107
 sVcompare_url
 p357
 Vhttps://api.github.com/repos/maxlapshin/mysql2postgres/compare/{base}...{head}
@@ -794,7 +794,7 @@ p377
 I01
 sVwatchers
 p378
-I403
+I416
 sVname
 p379
 Vmysql2postgres
@@ -817,7 +817,7 @@ V2013-11-05T14:39:27Z
 p388
 sVforks_count
 p389
-I106
+I107
 sVdefault_branch
 p390
 Vmaster

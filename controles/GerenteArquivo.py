@@ -18,7 +18,7 @@ class GerenteArquivo:
         
         #Pega as linguagens dos usuarios no arquivo
         for usuario in usuarios:
-            linguagens = gg.getLinguagens(usuario["login"])
+            linguagens = gg.getLinguagensNoArquivo(usuario["login"])
             #Agora compara se a linguagem eh a do paremotro
             #Se for, poe o login do usuario na lista que deve ser retornada
             for lang in linguagens:

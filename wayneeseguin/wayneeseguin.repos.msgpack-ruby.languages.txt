@@ -1,10 +1,11 @@
 (dp0
-Vdocumentation_url
+VRuby
 p1
-Vhttp://developer.github.com/v3/#rate-limiting
+I30529
+sVC
 p2
-sVmessage
+I112278
+sVJava
 p3
-VAPI rate limit exceeded for 187.33.237.178. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
-p4
+I22628
 s.

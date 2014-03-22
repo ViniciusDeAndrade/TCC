@@ -5,7 +5,7 @@ Vhttps://api.github.com/repos/wayneeseguin/merb-core/issues{/number}
 p2
 sVstargazers_count
 p3
-I1
+I2
 sVforks_url
 p4
 Vhttps://api.github.com/repos/wayneeseguin/merb-core/forks
@@ -26,7 +26,7 @@ Vhttps://api.github.com/repos/wayneeseguin/merb-core/collaborators{/collaborator
 p12
 sVupdated_at
 p13
-V2012-12-12T16:55:49Z
+V2013-12-28T13:45:44Z
 p14
 sVprivate
 p15
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/wycats/merb-core/collaborators{/collaborator}
 p92
 sVupdated_at
 p93
-V2013-12-11T17:39:41Z
+V2014-01-13T16:21:57Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/wycats/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/428167a3ec72235ba971162924492609?d=https%3A%2F%2Fidenticons.github.com%2Fa87ff679a2f3e71d9181a67b7542122c.png&r=x
+Vhttps://avatars.githubusercontent.com/u/4?
 p122
 sVrepos_url
 p123
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/wycats/merb-core/languages
 p165
 sVsize
 p166
-I92
+I3462
 sVhomepage
 p167
 Vhttp://www.merbivore.com
@@ -489,7 +489,7 @@ Vhttps://github.com/wayneeseguin/merb-core.git
 p233
 sVwatchers_count
 p234
-I1
+I2
 sVgit_tags_url
 p235
 Vhttps://api.github.com/repos/wayneeseguin/merb-core/git/tags{/sha}
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/merb-core/languages
 p240
 sVsize
 p241
-I96
+I284
 sVhomepage
 p242
 Vhttp://www.merbivore.com
@@ -554,7 +554,7 @@ Vhttps://api.github.com/repos/wycats/merb-core/collaborators{/collaborator}
 p264
 sVupdated_at
 p265
-V2013-12-11T17:39:41Z
+V2014-01-13T16:21:57Z
 p266
 sVprivate
 p267
@@ -611,7 +611,7 @@ Vhttps://api.github.com/users/wycats/subscriptions
 p292
 sVavatar_url
 p293
-Vhttps://gravatar.com/avatar/428167a3ec72235ba971162924492609?d=https%3A%2F%2Fidenticons.github.com%2Fa87ff679a2f3e71d9181a67b7542122c.png&r=x
+Vhttps://avatars.githubusercontent.com/u/4?
 p294
 sVrepos_url
 p295
@@ -706,7 +706,7 @@ Vhttps://api.github.com/repos/wycats/merb-core/languages
 p337
 sVsize
 p338
-I92
+I3462
 sVhomepage
 p339
 Vhttp://www.merbivore.com
@@ -914,7 +914,7 @@ p435
 I01
 sVwatchers
 p436
-I1
+I2
 sVname
 p437
 Vmerb-core

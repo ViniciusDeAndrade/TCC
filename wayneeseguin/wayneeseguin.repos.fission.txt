@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -143,7 +143,7 @@ Vhttps://api.github.com/repos/wayneeseguin/fission/tags
 p68
 sVnetwork_count
 p69
-I22
+I23
 sVdownloads_url
 p70
 Vhttps://api.github.com/repos/wayneeseguin/fission/downloads
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/thbishop/fission/issues{/number}
 p82
 sVstargazers_count
 p83
-I72
+I77
 sVforks_url
 p84
 Vhttps://api.github.com/repos/thbishop/fission/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/thbishop/fission/collaborators{/collaborator}
 p92
 sVupdated_at
 p93
-V2013-12-16T19:13:16Z
+V2014-01-14T15:37:28Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/thbishop/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/b03c2c0ed26cc00ddd572e03602366b6?d=https%3A%2F%2Fidenticons.github.com%2F04fcc65450efcccdc9869442c3e36310.png&r=x
+Vhttps://avatars.githubusercontent.com/u/5088?
 p122
 sVrepos_url
 p123
@@ -330,7 +330,7 @@ Vhttps://github.com/thbishop/fission.git
 p158
 sVwatchers_count
 p159
-I72
+I77
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/thbishop/fission/git/tags{/sha}
@@ -387,7 +387,7 @@ Vhttps://github.com/thbishop/fission
 p185
 sVforks
 p186
-I22
+I23
 sVcompare_url
 p187
 Vhttps://api.github.com/repos/thbishop/fission/compare/{base}...{head}
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I72
+I77
 sVname
 p209
 Vfission
@@ -458,7 +458,7 @@ V2013-10-05T05:31:06Z
 p218
 sVforks_count
 p219
-I22
+I23
 sVdefault_branch
 p220
 Vmaster
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/fission/languages
 p240
 sVsize
 p241
-I88
+I183
 sVhomepage
 p242
 g168
@@ -532,7 +532,7 @@ Vhttps://api.github.com/repos/thbishop/fission/issues{/number}
 p253
 sVstargazers_count
 p254
-I72
+I77
 sVforks_url
 p255
 Vhttps://api.github.com/repos/thbishop/fission/forks
@@ -553,7 +553,7 @@ Vhttps://api.github.com/repos/thbishop/fission/collaborators{/collaborator}
 p263
 sVupdated_at
 p264
-V2013-12-16T19:13:16Z
+V2014-01-14T15:37:28Z
 p265
 sVprivate
 p266
@@ -610,7 +610,7 @@ Vhttps://api.github.com/users/thbishop/subscriptions
 p291
 sVavatar_url
 p292
-Vhttps://gravatar.com/avatar/b03c2c0ed26cc00ddd572e03602366b6?d=https%3A%2F%2Fidenticons.github.com%2F04fcc65450efcccdc9869442c3e36310.png&r=x
+Vhttps://avatars.githubusercontent.com/u/5088?
 p293
 sVrepos_url
 p294
@@ -690,7 +690,7 @@ Vhttps://github.com/thbishop/fission.git
 p329
 sVwatchers_count
 p330
-I72
+I77
 sVgit_tags_url
 p331
 Vhttps://api.github.com/repos/thbishop/fission/git/tags{/sha}
@@ -746,7 +746,7 @@ Vhttps://github.com/thbishop/fission
 p355
 sVforks
 p356
-I22
+I23
 sVcompare_url
 p357
 Vhttps://api.github.com/repos/thbishop/fission/compare/{base}...{head}
@@ -794,7 +794,7 @@ p377
 I01
 sVwatchers
 p378
-I72
+I77
 sVname
 p379
 Vfission
@@ -817,7 +817,7 @@ V2013-10-05T05:31:06Z
 p388
 sVforks_count
 p389
-I22
+I23
 sVdefault_branch
 p390
 Vmaster

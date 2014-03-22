@@ -5,7 +5,7 @@ Vhttps://api.github.com/repos/wayneeseguin/merbtastic/issues{/number}
 p2
 sVstargazers_count
 p3
-I1
+I2
 sVforks_url
 p4
 Vhttps://api.github.com/repos/wayneeseguin/merbtastic/forks
@@ -26,7 +26,7 @@ Vhttps://api.github.com/repos/wayneeseguin/merbtastic/collaborators{/collaborato
 p12
 sVupdated_at
 p13
-V2013-10-04T00:05:16Z
+V2013-12-28T13:45:48Z
 p14
 sVprivate
 p15
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -169,7 +169,7 @@ Vhttps://github.com/wayneeseguin/merbtastic.git
 p80
 sVwatchers_count
 p81
-I1
+I2
 sVgit_tags_url
 p82
 Vhttps://api.github.com/repos/wayneeseguin/merbtastic/git/tags{/sha}
@@ -184,7 +184,7 @@ Vhttps://api.github.com/repos/wayneeseguin/merbtastic/languages
 p87
 sVsize
 p88
-I92
+I80
 sVhomepage
 p89
 Vhttp://merbtastic.com
@@ -274,7 +274,7 @@ p129
 I01
 sVwatchers
 p130
-I1
+I2
 sVname
 p131
 Vmerbtastic

@@ -5,7 +5,7 @@ Vhttps://api.github.com/repos/wayneeseguin/alogr/issues{/number}
 p2
 sVstargazers_count
 p3
-I7
+I8
 sVforks_url
 p4
 Vhttps://api.github.com/repos/wayneeseguin/alogr/forks
@@ -26,7 +26,7 @@ Vhttps://api.github.com/repos/wayneeseguin/alogr/collaborators{/collaborator}
 p12
 sVupdated_at
 p13
-V2013-12-17T05:17:53Z
+V2013-12-28T13:45:49Z
 p14
 sVprivate
 p15
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -162,14 +162,14 @@ Vhttps://api.github.com/repos/wayneeseguin/alogr/git/refs{/sha}
 p77
 sVopen_issues_count
 p78
-I0
+I1
 sVclone_url
 p79
 Vhttps://github.com/wayneeseguin/alogr.git
 p80
 sVwatchers_count
 p81
-I7
+I8
 sVgit_tags_url
 p82
 Vhttps://api.github.com/repos/wayneeseguin/alogr/git/tags{/sha}
@@ -184,7 +184,7 @@ Vhttps://api.github.com/repos/wayneeseguin/alogr/languages
 p87
 sVsize
 p88
-I132
+I124
 sVhomepage
 p89
 Vhttp://alogr.rubyforge.org
@@ -233,7 +233,7 @@ Vhttps://api.github.com/repos/wayneeseguin/alogr/compare/{base}...{head}
 p110
 sVopen_issues
 p111
-I0
+I1
 sVgit_url
 p112
 Vgit://github.com/wayneeseguin/alogr.git
@@ -274,7 +274,7 @@ p129
 I01
 sVwatchers
 p130
-I7
+I8
 sVname
 p131
 Valogr

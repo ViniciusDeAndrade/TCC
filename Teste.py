@@ -1,12 +1,13 @@
 import pickle
 from controles.GerenteGitHub import GerenteGitHub
+from controles.GerenteArquivo import GerenteArquivo
 
 gg = GerenteGitHub()
 
-# usuario = raw_input('digite um nome de usuario: ')
-gg.salvarRepos("cristibalan")
+#usuario = raw_input('digite um nome de usuario: ')
+gg.salvarRepos("kevwil")
 
-#gg.salvarReposFaltando("cristibalan", " ")
+#gg.salvarReposFaltando("wayneeseguin", "msgpack-ruby")
 
 # dicionarioLinguagens = gg.getLinguagensNoArquivo("mojombo")
 # keys = dicionarioLinguagens.keys()
@@ -23,3 +24,8 @@ gg.salvarRepos("cristibalan")
 # for key in keys:
 #     print key + ": " + str(languages[key])
 #===============================================================================
+
+
+#ga = GerenteArquivo()
+#ranking = ga.ranquearUsuarios('CSS')
+#print ranking

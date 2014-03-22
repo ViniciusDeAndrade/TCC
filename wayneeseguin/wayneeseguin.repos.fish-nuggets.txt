@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -143,7 +143,7 @@ Vhttps://api.github.com/repos/wayneeseguin/fish-nuggets/tags
 p68
 sVnetwork_count
 p69
-I47
+I53
 sVdownloads_url
 p70
 Vhttps://api.github.com/repos/wayneeseguin/fish-nuggets/downloads
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/zmalltalker/fish-nuggets/issues{/number}
 p82
 sVstargazers_count
 p83
-I83
+I92
 sVforks_url
 p84
 Vhttps://api.github.com/repos/zmalltalker/fish-nuggets/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/zmalltalker/fish-nuggets/collaborators{/collaborat
 p92
 sVupdated_at
 p93
-V2013-12-16T14:23:43Z
+V2014-02-13T12:10:46Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/zmalltalker/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/5da08d9316f74df77545c3130d0ac9e4?d=https%3A%2F%2Fidenticons.github.com%2F6a711a119a8a7a9f877b5f379bfe9ea2.png&r=x
+Vhttps://avatars.githubusercontent.com/u/6506?
 p122
 sVrepos_url
 p123
@@ -323,14 +323,14 @@ Vhttps://api.github.com/repos/zmalltalker/fish-nuggets/git/refs{/sha}
 p155
 sVopen_issues_count
 p156
-I5
+I7
 sVclone_url
 p157
 Vhttps://github.com/zmalltalker/fish-nuggets.git
 p158
 sVwatchers_count
 p159
-I83
+I92
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/zmalltalker/fish-nuggets/git/tags{/sha}
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/zmalltalker/fish-nuggets/languages
 p165
 sVsize
 p166
-I180
+I389
 sVhomepage
 p167
 V
@@ -387,14 +387,14 @@ Vhttps://github.com/zmalltalker/fish-nuggets
 p185
 sVforks
 p186
-I47
+I53
 sVcompare_url
 p187
 Vhttps://api.github.com/repos/zmalltalker/fish-nuggets/compare/{base}...{head}
 p188
 sVopen_issues
 p189
-I5
+I7
 sVgit_url
 p190
 Vgit://github.com/zmalltalker/fish-nuggets.git
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I83
+I92
 sVname
 p209
 Vfish-nuggets
@@ -454,11 +454,11 @@ V2008-08-22T08:16:09Z
 p216
 sVpushed_at
 p217
-V2013-05-13T12:30:44Z
+V2014-02-13T12:10:45Z
 p218
 sVforks_count
 p219
-I47
+I53
 sVdefault_branch
 p220
 Vmaster
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/fish-nuggets/languages
 p240
 sVsize
 p241
-I100
+I123
 sVhomepage
 p242
 g168
@@ -532,7 +532,7 @@ Vhttps://api.github.com/repos/eventualbuddha/fish-nuggets/issues{/number}
 p253
 sVstargazers_count
 p254
-I18
+I19
 sVforks_url
 p255
 Vhttps://api.github.com/repos/eventualbuddha/fish-nuggets/forks
@@ -553,7 +553,7 @@ Vhttps://api.github.com/repos/eventualbuddha/fish-nuggets/collaborators{/collabo
 p263
 sVupdated_at
 p264
-V2013-12-16T14:23:43Z
+V2014-01-09T18:12:09Z
 p265
 sVprivate
 p266
@@ -610,7 +610,7 @@ Vhttps://api.github.com/users/eventualbuddha/subscriptions
 p291
 sVavatar_url
 p292
-Vhttps://gravatar.com/avatar/2fa6f8598d6acd60c3729791651a6336?d=https%3A%2F%2Fidenticons.github.com%2Fad4cc1fb9b068faecfb70914acc63395.png&r=x
+Vhttps://avatars.githubusercontent.com/u/1938?
 p293
 sVrepos_url
 p294
@@ -690,7 +690,7 @@ Vhttps://github.com/eventualbuddha/fish-nuggets.git
 p329
 sVwatchers_count
 p330
-I18
+I19
 sVgit_tags_url
 p331
 Vhttps://api.github.com/repos/eventualbuddha/fish-nuggets/git/tags{/sha}
@@ -705,7 +705,7 @@ Vhttps://api.github.com/repos/eventualbuddha/fish-nuggets/languages
 p336
 sVsize
 p337
-I212
+I274
 sVhomepage
 p338
 g168
@@ -794,7 +794,7 @@ p377
 I01
 sVwatchers
 p378
-I18
+I19
 sVname
 p379
 Vfish-nuggets

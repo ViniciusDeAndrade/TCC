@@ -5,7 +5,7 @@ Vhttps://api.github.com/repos/wayneeseguin/dynamic_reports/issues{/number}
 p2
 sVstargazers_count
 p3
-I230
+I233
 sVforks_url
 p4
 Vhttps://api.github.com/repos/wayneeseguin/dynamic_reports/forks
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -143,7 +143,7 @@ Vhttps://api.github.com/repos/wayneeseguin/dynamic_reports/tags
 p68
 sVnetwork_count
 p69
-I13
+I14
 sVdownloads_url
 p70
 Vhttps://api.github.com/repos/wayneeseguin/dynamic_reports/downloads
@@ -169,7 +169,7 @@ Vhttps://github.com/wayneeseguin/dynamic_reports.git
 p80
 sVwatchers_count
 p81
-I230
+I233
 sVgit_tags_url
 p82
 Vhttps://api.github.com/repos/wayneeseguin/dynamic_reports/git/tags{/sha}
@@ -184,7 +184,7 @@ Vhttps://api.github.com/repos/wayneeseguin/dynamic_reports/languages
 p87
 sVsize
 p88
-I88
+I335
 sVhomepage
 p89
 Vhttp://dynamicreports.rubyforge.org
@@ -226,7 +226,7 @@ Vhttps://github.com/wayneeseguin/dynamic_reports
 p107
 sVforks
 p108
-I13
+I14
 sVcompare_url
 p109
 Vhttps://api.github.com/repos/wayneeseguin/dynamic_reports/compare/{base}...{head}
@@ -274,7 +274,7 @@ p129
 I01
 sVwatchers
 p130
-I230
+I233
 sVname
 p131
 Vdynamic_reports
@@ -297,7 +297,7 @@ V2009-08-04T19:49:44Z
 p140
 sVforks_count
 p141
-I13
+I14
 sVdefault_branch
 p142
 Vmaster

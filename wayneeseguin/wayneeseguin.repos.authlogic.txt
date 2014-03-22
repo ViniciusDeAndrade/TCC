@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/wayneeseguin/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/b9b5ff40232c1dfd61238c2a90467f84?d=https%3A%2F%2Fidenticons.github.com%2F6f4922f45568161a8cdf4ad2299f6d23.png&r=x
+Vhttps://avatars.githubusercontent.com/u/18?
 p42
 sVrepos_url
 p43
@@ -143,7 +143,7 @@ Vhttps://api.github.com/repos/wayneeseguin/authlogic/tags
 p68
 sVnetwork_count
 p69
-I494
+I507
 sVdownloads_url
 p70
 Vhttps://api.github.com/repos/wayneeseguin/authlogic/downloads
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/issues{/number}
 p82
 sVstargazers_count
 p83
-I3475
+I3481
 sVforks_url
 p84
 Vhttps://api.github.com/repos/binarylogic/authlogic/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/collaborators{/collaborator}
 p92
 sVupdated_at
 p93
-V2013-12-18T17:33:05Z
+V2014-03-03T05:15:59Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/binarylogic/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/824ef1f89fa8b34d257ed83d8fd4e3dc?d=https%3A%2F%2Fidenticons.github.com%2F93da579a65ce84cd1d4c85c2cbb84fc5.png&r=x
+Vhttps://avatars.githubusercontent.com/u/4136?
 p122
 sVrepos_url
 p123
@@ -299,7 +299,7 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/keys{/key_id}
 p143
 sVdescription
 p144
-VA simple model based ruby authentication solution.
+VA simple ruby authentication solution.
 p145
 sVtags_url
 p146
@@ -323,14 +323,14 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/git/refs{/sha}
 p155
 sVopen_issues_count
 p156
-I223
+I215
 sVclone_url
 p157
 Vhttps://github.com/binarylogic/authlogic.git
 p158
 sVwatchers_count
 p159
-I3475
+I3481
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/binarylogic/authlogic/git/tags{/sha}
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/languages
 p165
 sVsize
 p166
-I3079
+I3637
 sVhomepage
 p167
 Vhttp://rdoc.info/projects/binarylogic/authlogic
@@ -387,14 +387,14 @@ Vhttps://github.com/binarylogic/authlogic
 p185
 sVforks
 p186
-I494
+I507
 sVcompare_url
 p187
 Vhttps://api.github.com/repos/binarylogic/authlogic/compare/{base}...{head}
 p188
 sVopen_issues
 p189
-I223
+I215
 sVgit_url
 p190
 Vgit://github.com/binarylogic/authlogic.git
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I3475
+I3481
 sVname
 p209
 Vauthlogic
@@ -454,11 +454,11 @@ V2008-10-24T21:13:34Z
 p216
 sVpushed_at
 p217
-V2013-09-09T16:09:00Z
+V2014-03-03T05:15:57Z
 p218
 sVforks_count
 p219
-I494
+I507
 sVdefault_branch
 p220
 Vmaster
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/wayneeseguin/authlogic/languages
 p240
 sVsize
 p241
-I108
+I1236
 sVhomepage
 p242
 Vhttp://rdoc.info/projects/binarylogic/authlogic
@@ -533,7 +533,7 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/issues{/number}
 p254
 sVstargazers_count
 p255
-I3475
+I3481
 sVforks_url
 p256
 Vhttps://api.github.com/repos/binarylogic/authlogic/forks
@@ -554,7 +554,7 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/collaborators{/collaborator}
 p264
 sVupdated_at
 p265
-V2013-12-18T17:33:05Z
+V2014-03-03T05:15:59Z
 p266
 sVprivate
 p267
@@ -611,7 +611,7 @@ Vhttps://api.github.com/users/binarylogic/subscriptions
 p292
 sVavatar_url
 p293
-Vhttps://gravatar.com/avatar/824ef1f89fa8b34d257ed83d8fd4e3dc?d=https%3A%2F%2Fidenticons.github.com%2F93da579a65ce84cd1d4c85c2cbb84fc5.png&r=x
+Vhttps://avatars.githubusercontent.com/u/4136?
 p294
 sVrepos_url
 p295
@@ -660,7 +660,7 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/keys{/key_id}
 p315
 sVdescription
 p316
-VA simple model based ruby authentication solution.
+VA simple ruby authentication solution.
 p317
 sVtags_url
 p318
@@ -684,14 +684,14 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/git/refs{/sha}
 p327
 sVopen_issues_count
 p328
-I223
+I215
 sVclone_url
 p329
 Vhttps://github.com/binarylogic/authlogic.git
 p330
 sVwatchers_count
 p331
-I3475
+I3481
 sVgit_tags_url
 p332
 Vhttps://api.github.com/repos/binarylogic/authlogic/git/tags{/sha}
@@ -706,7 +706,7 @@ Vhttps://api.github.com/repos/binarylogic/authlogic/languages
 p337
 sVsize
 p338
-I3079
+I3637
 sVhomepage
 p339
 Vhttp://rdoc.info/projects/binarylogic/authlogic
@@ -748,14 +748,14 @@ Vhttps://github.com/binarylogic/authlogic
 p357
 sVforks
 p358
-I494
+I507
 sVcompare_url
 p359
 Vhttps://api.github.com/repos/binarylogic/authlogic/compare/{base}...{head}
 p360
 sVopen_issues
 p361
-I223
+I215
 sVgit_url
 p362
 Vgit://github.com/binarylogic/authlogic.git
@@ -796,7 +796,7 @@ p379
 I01
 sVwatchers
 p380
-I3475
+I3481
 sVname
 p381
 Vauthlogic
@@ -815,11 +815,11 @@ V2008-10-24T21:13:34Z
 p388
 sVpushed_at
 p389
-V2013-09-09T16:09:00Z
+V2014-03-03T05:15:57Z
 p390
 sVforks_count
 p391
-I494
+I507
 sVdefault_branch
 p392
 Vmaster
