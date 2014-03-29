@@ -27,7 +27,7 @@ gg = GerenteGitHub()
 
 
 ga = GerenteArquivo()
-ranking = ga.ranquearUsuarios('Java')
+ranking = ga.ranquearUsuarios('C')
 print "=============================================="
 for usuario in ranking:
-    print usuario + " " + str(ranking[usuario])
+    print usuario + " " + str(ranking[usuario]) + " pontos"

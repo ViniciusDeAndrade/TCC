@@ -125,6 +125,41 @@ class GerenteGitHub:
             
 
 
+    def getStarsPorLinguagemNoArquivoComExcecao(self,login,linguagem):
+        countStars = 0
+
+        try:
+            f_repos = open(login + "/" + login + ".repos.txt", "r")
+            repos = pickle.load(f_repos)
+
+            countStars = 0
+
+            try:
+                print repos["message"]
+            except:
+                for repo in repos:
+                    try:
+                        print repo["message"]
+                    except:
+                        try:
+                            f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
+                            languages = pickle.load(f_languages)
+    
+                            try:
+                                print repos["message"]
+                            except:
+                                for lang in languages:
+                                    if lang == linguagem:
+                                        countStars += repo["stargazers_count"]
+                        except:
+                            print '',
+                        
+                return countStars
+        except:
+            print '',
+
+        return countStars
+        
     #no arquivo
     def getForksPorLinguagemNoArquivoComExcecao(self, login, linguagem):
         try:

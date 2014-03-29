@@ -30,6 +30,25 @@ class GerenteArquivo:
         
         return ranking
 
+    def ranquearUsuariosPorStars(self, linguagem):
+        usuarios = self.recuperarUsuarios()
+        gg = GerenteGitHub()
+        ranking = {}
+
+        for usuario in usuarios:
+            ranking[usuario["login"]] = 0
+
+        for usuario in usuarios:
+            countStars = gg.getStarsPorLinguagemNoArquivoComExcecao(usuario["login"], linguagem)
+
+            try:
+                ranking[usuario["login"]] += countStars
+            except:
+                print '',
+
+            print usuario["login"] + ' :' + str(ranking[usuario["login"]])
+
+        return ranking
             
     def ranquearUsuariosPorFork(self, linguagem):
         usuarios = self.recuperarUsuarios()
@@ -48,19 +67,20 @@ class GerenteArquivo:
                 print usuario["login"] + ' :' + str(ranking[usuario["login"]])
             except:
                 print usuario["login"] + ' :' + str(ranking[usuario["login"]])
-        
+                
         return ranking
         
 
     def ranquearUsuarios(self, linguagem):
-        pesoFork = 10
-          
+        
+
         rankingBytes = self.ranquearUsuariosPorBytes(linguagem)
         rankingForks = self.ranquearUsuariosPorFork(linguagem)
+        rankingStars = self.ranquearUsuariosPorStars(linguagem)
         ranking = {}
 
         for usuario in rankingBytes:
-            ranking[usuario] = (pesoFork * rankingForks[usuario]) + rankingBytes[usuario]
+            ranking[usuario] = round(rankingForks[usuario] * (rankingBytes[usuario]/1024) * rankingStars[usuario])
           
         return ranking
     
