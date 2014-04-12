@@ -26,7 +26,7 @@ Vhttps://api.github.com/repos/KirinDave/classifier/collaborators{/collaborator}
 p12
 sVupdated_at
 p13
-V2012-12-12T17:09:16Z
+V2014-01-13T14:30:38Z
 p14
 sVprivate
 p15
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/KirinDave/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/d4fabd6c08ac228a3ff846d9d0d1580e?d=https%3A%2F%2Fidenticons.github.com%2F19ca14e7ea6328a42e0eb13d585e4c22.png&r=x
+Vhttps://avatars.githubusercontent.com/u/36?
 p42
 sVrepos_url
 p43
@@ -143,7 +143,7 @@ Vhttps://api.github.com/repos/KirinDave/classifier/tags
 p68
 sVnetwork_count
 p69
-I103
+I107
 sVdownloads_url
 p70
 Vhttps://api.github.com/repos/KirinDave/classifier/downloads
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/cardmagic/classifier/issues{/number}
 p82
 sVstargazers_count
 p83
-I278
+I298
 sVforks_url
 p84
 Vhttps://api.github.com/repos/cardmagic/classifier/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/cardmagic/classifier/collaborators{/collaborator}
 p92
 sVupdated_at
 p93
-V2013-12-05T16:31:49Z
+V2014-01-07T09:06:43Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/cardmagic/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/c18da5373ec272da2d9f31df7cb5a441?d=https%3A%2F%2Fidenticons.github.com%2F6c8dba7d0df1c4a79dd07646be9a26c8.png&r=x
+Vhttps://avatars.githubusercontent.com/u/1264?
 p122
 sVrepos_url
 p123
@@ -330,7 +330,7 @@ Vhttps://github.com/cardmagic/classifier.git
 p158
 sVwatchers_count
 p159
-I278
+I298
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/cardmagic/classifier/git/tags{/sha}
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/cardmagic/classifier/languages
 p165
 sVsize
 p166
-I154
+I236
 sVhomepage
 p167
 Vhttp://rubyforge.org/projects/classifier/
@@ -387,7 +387,7 @@ Vhttps://github.com/cardmagic/classifier
 p185
 sVforks
 p186
-I103
+I107
 sVcompare_url
 p187
 Vhttps://api.github.com/repos/cardmagic/classifier/compare/{base}...{head}
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I278
+I298
 sVname
 p209
 Vclassifier
@@ -454,11 +454,11 @@ V2008-05-05T17:24:11Z
 p216
 sVpushed_at
 p217
-V2011-10-09T20:28:52Z
+V2014-01-07T09:06:43Z
 p218
 sVforks_count
 p219
-I103
+I107
 sVdefault_branch
 p220
 Vmaster
@@ -533,7 +533,7 @@ Vhttps://api.github.com/repos/cardmagic/classifier/issues{/number}
 p254
 sVstargazers_count
 p255
-I278
+I298
 sVforks_url
 p256
 Vhttps://api.github.com/repos/cardmagic/classifier/forks
@@ -554,7 +554,7 @@ Vhttps://api.github.com/repos/cardmagic/classifier/collaborators{/collaborator}
 p264
 sVupdated_at
 p265
-V2013-12-05T16:31:49Z
+V2014-01-07T09:06:43Z
 p266
 sVprivate
 p267
@@ -611,7 +611,7 @@ Vhttps://api.github.com/users/cardmagic/subscriptions
 p292
 sVavatar_url
 p293
-Vhttps://gravatar.com/avatar/c18da5373ec272da2d9f31df7cb5a441?d=https%3A%2F%2Fidenticons.github.com%2F6c8dba7d0df1c4a79dd07646be9a26c8.png&r=x
+Vhttps://avatars.githubusercontent.com/u/1264?
 p294
 sVrepos_url
 p295
@@ -691,7 +691,7 @@ Vhttps://github.com/cardmagic/classifier.git
 p330
 sVwatchers_count
 p331
-I278
+I298
 sVgit_tags_url
 p332
 Vhttps://api.github.com/repos/cardmagic/classifier/git/tags{/sha}
@@ -706,7 +706,7 @@ Vhttps://api.github.com/repos/cardmagic/classifier/languages
 p337
 sVsize
 p338
-I154
+I236
 sVhomepage
 p339
 Vhttp://rubyforge.org/projects/classifier/
@@ -748,7 +748,7 @@ Vhttps://github.com/cardmagic/classifier
 p357
 sVforks
 p358
-I103
+I107
 sVcompare_url
 p359
 Vhttps://api.github.com/repos/cardmagic/classifier/compare/{base}...{head}
@@ -796,7 +796,7 @@ p379
 I01
 sVwatchers
 p380
-I278
+I298
 sVname
 p381
 Vclassifier
@@ -815,11 +815,11 @@ V2008-05-05T17:24:11Z
 p388
 sVpushed_at
 p389
-V2011-10-09T20:28:52Z
+V2014-01-07T09:06:43Z
 p390
 sVforks_count
 p391
-I103
+I107
 sVdefault_branch
 p392
 Vmaster

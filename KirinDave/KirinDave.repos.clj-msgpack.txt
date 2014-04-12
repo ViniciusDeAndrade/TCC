@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/KirinDave/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/d4fabd6c08ac228a3ff846d9d0d1580e?d=https%3A%2F%2Fidenticons.github.com%2F19ca14e7ea6328a42e0eb13d585e4c22.png&r=x
+Vhttps://avatars.githubusercontent.com/u/36?
 p42
 sVrepos_url
 p43
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/grammati/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/000883cb8867819f3cb0088927ec1cc3?d=https%3A%2F%2Fidenticons.github.com%2F7316fc9871d9d1222727d6ca14f5cf2d.png&r=x
+Vhttps://avatars.githubusercontent.com/u/94716?
 p122
 sVrepos_url
 p123
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/grammati/clj-msgpack/languages
 p165
 sVsize
 p166
-I120
+I109
 sVhomepage
 p167
 V
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/KirinDave/clj-msgpack/languages
 p240
 sVsize
 p241
-I136
+I114
 sVhomepage
 p242
 g168
@@ -610,7 +610,7 @@ Vhttps://api.github.com/users/grammati/subscriptions
 p291
 sVavatar_url
 p292
-Vhttps://gravatar.com/avatar/000883cb8867819f3cb0088927ec1cc3?d=https%3A%2F%2Fidenticons.github.com%2F7316fc9871d9d1222727d6ca14f5cf2d.png&r=x
+Vhttps://avatars.githubusercontent.com/u/94716?
 p293
 sVrepos_url
 p294
@@ -705,7 +705,7 @@ Vhttps://api.github.com/repos/grammati/clj-msgpack/languages
 p336
 sVsize
 p337
-I120
+I109
 sVhomepage
 p338
 g168

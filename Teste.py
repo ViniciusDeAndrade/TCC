@@ -5,15 +5,18 @@ from controles.GerenteArquivo import GerenteArquivo
 gg = GerenteGitHub()
 
 #usuario = raw_input('digite um nome de usuario: ')
-#gg.salvarRepos("kevwil")
+#gg.salvarRepos("KirinDave")
 
-#gg.salvarReposFaltando("wayneeseguin", "msgpack-ruby")
+#gg.salvarReposFaltando("KirinDave", "giter8")
 
 # dicionarioLinguagens = gg.getLinguagensNoArquivo("mojombo")
 # keys = dicionarioLinguagens.keys()
 # 
 # for key in keys:
 #     print key + ": " + str(dicionarioLinguagens[key])
+
+#gg.getLinguagensNoArquivo("KirinDave")
+#print '..'
 
 #===============================================================================
 # f = open("mojombo/mojombo.repos.bert.languages.txt", "r")
@@ -27,7 +30,11 @@ gg = GerenteGitHub()
 
 
 ga = GerenteArquivo()
-ranking = ga.ranquearUsuarios('C')
+#ranking = ga.ranquearUsuarios('JavaScript')
+#ranking = gg.getLinguagensNoArquivo("mojombo")
+ranking = gg.getLinguagens("vicenteneto")
 print "=============================================="
+
 for usuario in ranking:
     print usuario + " " + str(ranking[usuario]) + " pontos"
+

@@ -10,15 +10,20 @@ class GerenteGitHub:
     
     def getGitHub(self):
         return github.Github("1caa7d1d703267253a4da559872a5179d0aef170")
+
+    
     #na nuvem
     def getUsuarios(self):  
         gh = self.getGitHub()
         return json.loads(requests.get("https://api.github.com/users").text)
-     #na nuvem          
+
+
+    #na nuvem          
     def getUsuarioSince(self, ID):
         gh = self.getGitHub()
         usuarios = json.loads(requests.get("https://api.github.com/users?since=" + str(ID)).text)
         return usuarios
+
     
     #na nuvem
     def getLinguagens(self, login):
@@ -31,108 +36,108 @@ class GerenteGitHub:
             languages = json.loads(requests.get(repo["languages_url"]).text)
             for lang in languages:
                 if lang in dicionarioLinguagens:
-                    dicionarioLinguagens[lang] += 1
+                    dicionarioLinguagens[lang] += languages[lang]
                 else:
-                    dicionarioLinguagens[lang] = 1
+                    dicionarioLinguagens[lang] = languages[lang]
         return dicionarioLinguagens
-    
+
+
     #no arquivo
     def getLinguagensNoArquivo(self, login):
         f_repos = open(login + "/" + login + ".repos.txt", "r")
         repos = pickle.load(f_repos)
-        
+
         dicionarioLinguagens = {}
-        
+
         for repo in repos:
             f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
             languages = pickle.load(f_languages)
-            
+
             for lang in languages:
                 if lang in dicionarioLinguagens:
-                    dicionarioLinguagens[lang] += 1
+                    dicionarioLinguagens[lang] += languages[lang]
                 else:
-                    dicionarioLinguagens[lang] = 1
+                    dicionarioLinguagens[lang] = languages[lang]
+
         return dicionarioLinguagens
 
-    
-    #no arquivo
-    def getLinguagensNoArquivoComExcecao(self, login):
-        try:
-            f_repos = open(login + "/" + login + ".repos.txt", "r")
-            repos = pickle.load(f_repos)
-
-            dicionarioLinguagens = {}
-
-            try:
-                print repos["message"]
-                return dicionarioLinguagens
-            except:
-                for repo in repos:
-                    try:
-                        print repo["message"]
-                    except:
-                        try:
-                            f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
-                            languages = pickle.load(f_languages)
-    
-                            try:
-                                print repos["message"]
-                            except:
-                                for lang in languages:
-                                    if lang in dicionarioLinguagens:
-                                        dicionarioLinguagens[lang] += languages[lang]
-                                    else:
-                                        dicionarioLinguagens[lang] = languages[lang]
-                        except:
-                            print '',
-                        
-                return dicionarioLinguagens
-        except:
-            print '',
-
 
     #no arquivo
-    def getBytesDaLinguagemNoArquivoComExcecao(self, login, linguagem):
-        try:
-            f_repos = open(login + "/" + login + ".repos.txt", "r")
-            repos = pickle.load(f_repos)
+##    def getLinguagensNoArquivoComExcecao(self, login):
+##        try:
+##            f_repos = open(login + "/" + login + ".repos.txt", "r")
+##            repos = pickle.load(f_repos)
+##
+##            dicionarioLinguagens = {}
+##
+##            try:
+##                print repos["message"]
+##                return dicionarioLinguagens
+##            except:
+##                for repo in repos:
+##                    try:
+##                        print repo["message"]
+##                    except:
+##                        try:
+##                            f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
+##                            languages = pickle.load(f_languages)
+##    
+##                            try:
+##                                print repos["message"]
+##                            except:
+##                                for lang in languages:
+##                                    if lang in dicionarioLinguagens:
+##                                        dicionarioLinguagens[lang] += languages[lang]
+##                                    else:
+##                                        dicionarioLinguagens[lang] = languages[lang]
+##                        except:
+##                            print '',
+##                        
+##                return dicionarioLinguagens
+##        except:
+##            print '',
 
-            countBytes = 0
 
-            try:
-                print repos["message"]
-            except:
-                for repo in repos:
-                    try:
-                        print repo["message"]
-                    except:
-                        try:
-                            f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
-                            languages = pickle.load(f_languages)
-    
-                            try:
-                                print repos["message"]
-                            except:
-                                for lang in languages:
-                                    if lang == linguagem:
-                                        countBytes += languages[lang]
-                        except:
-                            print '',
-                        
-                return countBytes
-        except:
-            print '',
-            
+    #no arquivo
+##    def getBytesDaLinguagemNoArquivoComExcecao(self, login, linguagem):
+##        try:
+##            f_repos = open(login + "/" + login + ".repos.txt", "r")
+##            repos = pickle.load(f_repos)
+##
+##            countBytes = 0
+##
+##            try:
+##                print repos["message"]
+##            except:
+##                for repo in repos:
+##                    try:
+##                        print repo["message"]
+##                    except:
+##                        try:
+##                            f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
+##                            languages = pickle.load(f_languages)
+##    
+##                            try:
+##                                print repos["message"]
+##                            except:
+##                                for lang in languages:
+##                                    if lang == linguagem:
+##                                        countBytes += languages[lang]
+##                        except:
+##                            print '',
+##                        
+##                return countBytes
+##        except:
+##            print '',
 
-
-    def getStarsPorLinguagemNoArquivoComExcecao(self,login,linguagem):
+    def getDadosPorLinguagem(self,login,linguagem):
         countStars = 0
+        countForks = 0
+        countBytes = 0
 
         try:
             f_repos = open(login + "/" + login + ".repos.txt", "r")
             repos = pickle.load(f_repos)
-
-            countStars = 0
 
             try:
                 print repos["message"]
@@ -151,47 +156,84 @@ class GerenteGitHub:
                                 for lang in languages:
                                     if lang == linguagem:
                                         countStars += repo["stargazers_count"]
+                                        countForks += repo["forks_count"]
+                                        countBytes += languages[lang]
                         except:
                             print '',
                         
-                return countStars
+                return {"countStars": countStars, "countForks": countForks, "countBytes": countBytes}
         except:
             print '',
 
-        return countStars
+
+##    def getStarsPorLinguagemNoArquivoComExcecao(self,login,linguagem):
+##        countStars = 0
+##
+##        try:
+##            f_repos = open(login + "/" + login + ".repos.txt", "r")
+##            repos = pickle.load(f_repos)
+##
+##            countStars = 0
+##
+##            try:
+##                print repos["message"]
+##            except:
+##                for repo in repos:
+##                    try:
+##                        print repo["message"]
+##                    except:
+##                        try:
+##                            f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
+##                            languages = pickle.load(f_languages)
+##    
+##                            try:
+##                                print repos["message"]
+##                            except:
+##                                for lang in languages:
+##                                    if lang == linguagem:
+##                                        countStars += repo["stargazers_count"]
+##                        except:
+##                            print '',
+##                        
+##                return countStars
+##        except:
+##            print '',
+##
+##        return countStars
+
         
     #no arquivo
-    def getForksPorLinguagemNoArquivoComExcecao(self, login, linguagem):
-        try:
-            f_repos = open(login + "/" + login + ".repos.txt", "r")
-            repos = pickle.load(f_repos)
-
-            countForks = 0
-
-            try:
-                print repos["message"]
-                return dicionarioLinguagens
-            except:
-                for repo in repos:
-                    try:
-                        print repo["message"]
-                    except:
-                        try:
-                            f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
-                            languages = pickle.load(f_languages)
-    
-                            try:
-                                print repos["message"]
-                            except:
-                                for lang in languages:
-                                    if lang == linguagem:
-                                        countForks += repo["forks_count"]
-                        except:
-                            print '',
-                        
-                return countForks
-        except:
-            print '',
+##    def getForksPorLinguagemNoArquivoComExcecao(self, login, linguagem):
+##        try:
+##            f_repos = open(login + "/" + login + ".repos.txt", "r")
+##            repos = pickle.load(f_repos)
+##
+##            countForks = 0
+##
+##            try:
+##                print repos["message"]
+##                return dicionarioLinguagens
+##            except:
+##                for repo in repos:
+##                    try:
+##                        print repo["message"]
+##                    except:
+##                        try:
+##                            f_languages = open(login + "/" + login + ".repos." + repo["name"] + ".languages.txt", "r")
+##                            languages = pickle.load(f_languages)
+##    
+##                            try:
+##                                print repos["message"]
+##                            except:
+##                                for lang in languages:
+##                                    if lang == linguagem:
+##                                        countForks += repo["forks_count"]
+##                        except:
+##                            print '',
+##                        
+##                return countForks
+##        except:
+##            print '',
 
         
     def salvarUsuarios(self, usuarios):
@@ -201,8 +243,9 @@ class GerenteGitHub:
             pickle.dump(user, f)
         
         f.close()
-    #no arquivo
-    
+
+
+    #no arquivo    
     def salvarRepos(self, usuario):
         gh = self.getGitHub()
         repos = json.loads(requests.get("https://api.github.com/users/" + str(usuario) + "/repos").text)
@@ -242,6 +285,7 @@ class GerenteGitHub:
                     continue
                 
                 self.__salvarRepositorios(usuario, repo)
+
     
     #Refatorei para esse metodo
     def __salvarRepositorios(self, usuario, repo):        

@@ -26,7 +26,7 @@ Vhttps://api.github.com/repos/KirinDave/Clipping/collaborators{/collaborator}
 p12
 sVupdated_at
 p13
-V2013-09-20T13:18:09Z
+V2014-02-17T06:30:54Z
 p14
 sVprivate
 p15
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/KirinDave/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/d4fabd6c08ac228a3ff846d9d0d1580e?d=https%3A%2F%2Fidenticons.github.com%2F19ca14e7ea6328a42e0eb13d585e4c22.png&r=x
+Vhttps://avatars.githubusercontent.com/u/36?
 p42
 sVrepos_url
 p43
@@ -184,7 +184,7 @@ Vhttps://api.github.com/repos/KirinDave/Clipping/languages
 p87
 sVsize
 p88
-I108
+I128
 sVhomepage
 p89
 V

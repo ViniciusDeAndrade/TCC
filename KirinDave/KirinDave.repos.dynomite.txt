@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/KirinDave/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/d4fabd6c08ac228a3ff846d9d0d1580e?d=https%3A%2F%2Fidenticons.github.com%2F19ca14e7ea6328a42e0eb13d585e4c22.png&r=x
+Vhttps://avatars.githubusercontent.com/u/36?
 p42
 sVrepos_url
 p43
@@ -172,7 +172,7 @@ Vhttps://api.github.com/repos/moonpolysoft/dynomite/issues{/number}
 p82
 sVstargazers_count
 p83
-I324
+I326
 sVforks_url
 p84
 Vhttps://api.github.com/repos/moonpolysoft/dynomite/forks
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/moonpolysoft/dynomite/collaborators{/collaborator}
 p92
 sVupdated_at
 p93
-V2013-12-03T18:30:39Z
+V2014-01-13T23:04:25Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/moonpolysoft/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/c8a7750a333cfb27a1c72aa61b73b763?d=https%3A%2F%2Fidenticons.github.com%2F82edc5c9e21035674d481640448049f3.png&r=x
+Vhttps://avatars.githubusercontent.com/u/4226?
 p122
 sVrepos_url
 p123
@@ -330,7 +330,7 @@ Vhttps://github.com/moonpolysoft/dynomite.git
 p158
 sVwatchers_count
 p159
-I324
+I326
 sVgit_tags_url
 p160
 Vhttps://api.github.com/repos/moonpolysoft/dynomite/git/tags{/sha}
@@ -435,7 +435,7 @@ p207
 I01
 sVwatchers
 p208
-I324
+I326
 sVname
 p209
 Vdynomite
@@ -532,7 +532,7 @@ Vhttps://api.github.com/repos/moonpolysoft/dynomite/issues{/number}
 p253
 sVstargazers_count
 p254
-I324
+I326
 sVforks_url
 p255
 Vhttps://api.github.com/repos/moonpolysoft/dynomite/forks
@@ -553,7 +553,7 @@ Vhttps://api.github.com/repos/moonpolysoft/dynomite/collaborators{/collaborator}
 p263
 sVupdated_at
 p264
-V2013-12-03T18:30:39Z
+V2014-01-13T23:04:25Z
 p265
 sVprivate
 p266
@@ -610,7 +610,7 @@ Vhttps://api.github.com/users/moonpolysoft/subscriptions
 p291
 sVavatar_url
 p292
-Vhttps://gravatar.com/avatar/c8a7750a333cfb27a1c72aa61b73b763?d=https%3A%2F%2Fidenticons.github.com%2F82edc5c9e21035674d481640448049f3.png&r=x
+Vhttps://avatars.githubusercontent.com/u/4226?
 p293
 sVrepos_url
 p294
@@ -690,7 +690,7 @@ Vhttps://github.com/moonpolysoft/dynomite.git
 p329
 sVwatchers_count
 p330
-I324
+I326
 sVgit_tags_url
 p331
 Vhttps://api.github.com/repos/moonpolysoft/dynomite/git/tags{/sha}
@@ -794,7 +794,7 @@ p377
 I01
 sVwatchers
 p378
-I324
+I326
 sVname
 p379
 Vdynomite

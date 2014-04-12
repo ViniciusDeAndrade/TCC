@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/KirinDave/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/d4fabd6c08ac228a3ff846d9d0d1580e?d=https%3A%2F%2Fidenticons.github.com%2F19ca14e7ea6328a42e0eb13d585e4c22.png&r=x
+Vhttps://avatars.githubusercontent.com/u/36?
 p42
 sVrepos_url
 p43
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/banjiewen/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/7ef94f16d9d6be5639580becd295d677?d=https%3A%2F%2Fidenticons.github.com%2Fd4c45698a946146c0f7297a6906a7192.png&r=x
+Vhttps://avatars.githubusercontent.com/u/141718?
 p122
 sVrepos_url
 p123
@@ -345,7 +345,7 @@ Vhttps://api.github.com/repos/banjiewen/Clothesline/languages
 p165
 sVsize
 p166
-I192
+I248
 sVhomepage
 p167
 V
@@ -504,7 +504,7 @@ Vhttps://api.github.com/repos/KirinDave/Clothesline/languages
 p240
 sVsize
 p241
-I116
+I223
 sVhomepage
 p242
 g168
@@ -610,7 +610,7 @@ Vhttps://api.github.com/users/banjiewen/subscriptions
 p291
 sVavatar_url
 p292
-Vhttps://gravatar.com/avatar/7ef94f16d9d6be5639580becd295d677?d=https%3A%2F%2Fidenticons.github.com%2Fd4c45698a946146c0f7297a6906a7192.png&r=x
+Vhttps://avatars.githubusercontent.com/u/141718?
 p293
 sVrepos_url
 p294
@@ -705,7 +705,7 @@ Vhttps://api.github.com/repos/banjiewen/Clothesline/languages
 p336
 sVsize
 p337
-I192
+I248
 sVhomepage
 p338
 g168

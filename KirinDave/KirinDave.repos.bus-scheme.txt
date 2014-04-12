@@ -5,7 +5,7 @@ Vhttps://api.github.com/repos/KirinDave/bus-scheme/issues{/number}
 p2
 sVstargazers_count
 p3
-I1
+I2
 sVforks_url
 p4
 Vhttps://api.github.com/repos/KirinDave/bus-scheme/forks
@@ -26,7 +26,7 @@ Vhttps://api.github.com/repos/KirinDave/bus-scheme/collaborators{/collaborator}
 p12
 sVupdated_at
 p13
-V2012-12-12T16:56:16Z
+V2013-12-28T14:12:28Z
 p14
 sVprivate
 p15
@@ -83,7 +83,7 @@ Vhttps://api.github.com/users/KirinDave/subscriptions
 p40
 sVavatar_url
 p41
-Vhttps://gravatar.com/avatar/d4fabd6c08ac228a3ff846d9d0d1580e?d=https%3A%2F%2Fidenticons.github.com%2F19ca14e7ea6328a42e0eb13d585e4c22.png&r=x
+Vhttps://avatars.githubusercontent.com/u/36?
 p42
 sVrepos_url
 p43
@@ -193,7 +193,7 @@ Vhttps://api.github.com/repos/technomancy/bus-scheme/collaborators{/collaborator
 p92
 sVupdated_at
 p93
-V2013-08-28T17:14:37Z
+V2014-01-11T15:39:34Z
 p94
 sVprivate
 p95
@@ -250,7 +250,7 @@ Vhttps://api.github.com/users/technomancy/subscriptions
 p120
 sVavatar_url
 p121
-Vhttps://gravatar.com/avatar/22788ec68b2aee512f8f4c5d8ae819ae?d=https%3A%2F%2Fidenticons.github.com%2F0f28b5d49b3020afeecd95b4009adf4c.png&r=x
+Vhttps://avatars.githubusercontent.com/u/141?
 p122
 sVrepos_url
 p123
@@ -489,7 +489,7 @@ Vhttps://github.com/KirinDave/bus-scheme.git
 p233
 sVwatchers_count
 p234
-I1
+I2
 sVgit_tags_url
 p235
 Vhttps://api.github.com/repos/KirinDave/bus-scheme/git/tags{/sha}
@@ -554,7 +554,7 @@ Vhttps://api.github.com/repos/technomancy/bus-scheme/collaborators{/collaborator
 p264
 sVupdated_at
 p265
-V2013-08-28T17:14:37Z
+V2014-01-11T15:39:34Z
 p266
 sVprivate
 p267
@@ -611,7 +611,7 @@ Vhttps://api.github.com/users/technomancy/subscriptions
 p292
 sVavatar_url
 p293
-Vhttps://gravatar.com/avatar/22788ec68b2aee512f8f4c5d8ae819ae?d=https%3A%2F%2Fidenticons.github.com%2F0f28b5d49b3020afeecd95b4009adf4c.png&r=x
+Vhttps://avatars.githubusercontent.com/u/141?
 p294
 sVrepos_url
 p295
@@ -914,7 +914,7 @@ p435
 I01
 sVwatchers
 p436
-I1
+I2
 sVname
 p437
 Vbus-scheme
